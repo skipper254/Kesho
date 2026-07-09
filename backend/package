@@ -1,0 +1,12 @@
+{
+  "name": "kesho-backend",
+  "scripts": {
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "mongoose": "^8.0.0",
+    "intasend-node": "^1.1.2",
+    "ioredis": "^5.0.0"
+  }
+}
