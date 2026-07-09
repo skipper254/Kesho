@@ -1,0 +1,10 @@
+import express from 'express';
+import Redis from 'ioredis';
+const app = express();
+const redis = new Redis(process.env.REDIS_URL);
+
+app.post('/api/payments/intasend/stk', async (req, res) => {
+  // IntaSend STK logic here (as provided earlier)
+});
+
+app.listen(5000, () => console.log('KESHO Backend running'));
