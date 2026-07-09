@@ -1,0 +1,10 @@
+# Frontend
+cd kesho/frontend
+npm install
+npm run dev   # Open http://localhost:5173
+
+# Backend (new terminal)
+cd ../backend
+npm install
+cp .env.example .env   # Fill Mongo, IntaSend, M-Pesa keys
+npm run dev   # Open http://localhost:5000/api-docs
